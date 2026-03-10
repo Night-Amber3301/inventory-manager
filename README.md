@@ -1,9 +1,5 @@
 # Inventory Manager
 
-A secure full-stack inventory management system built with React, Node.js, and PostgreSQL.
-
-# Inventory Manager
-
 Inventory Manager is a full-stack web application that allows authenticated users to manage product inventory securely.  
 The system supports user authentication with JWT, protected API routes, and full CRUD operations for products.
 
@@ -45,15 +41,14 @@ The system supports user authentication with JWT, protected API routes, and full
 
 ## Project Structure
 
-secure-auth-system/
+inventory-manager
+│
 ├── backend
 │ ├── src
-│ │ ├── controllers
-│ │ ├── routes
-│ │ ├── services
-│ │ ├── middleware
-│ │ └── utils
-│ └── prisma
+│ ├── prisma
+│ ├── .env.example
+│ ├── package.json
+│ └── tsconfig.json
 │
 ├── frontend
 │ ├── src
@@ -61,7 +56,11 @@ secure-auth-system/
 │ │ ├── components
 │ │ ├── pages
 │ │ └── App.tsx
-
+│ ├── package.json
+│ └── vite.config.ts
+│
+├── README.md
+└── .gitignore
 
 ---
 
