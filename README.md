@@ -39,31 +39,6 @@ The system supports user authentication with JWT, protected API routes, and full
 
 ---
 
-## Project Structure
-
-inventory-manager
-│
-├── backend
-│ ├── src
-│ ├── prisma
-│ ├── .env.example
-│ ├── package.json
-│ └── tsconfig.json
-│
-├── frontend
-│ ├── src
-│ │ ├── api
-│ │ ├── components
-│ │ ├── pages
-│ │ └── App.tsx
-│ ├── package.json
-│ └── vite.config.ts
-│
-├── README.md
-└── .gitignore
-
----
-
 ## Authentication Flow
 
 1. User registers or logs in.
@@ -101,6 +76,7 @@ DELETE /products/:id
 ### 1. Clone repository
 
 git clone <repo-url>
+
 cd inventory-manager
 
 
@@ -111,11 +87,13 @@ cd inventory-manager
 Backend:
 
 cd backend
+
 npm install
 
 Frontend:
 
 cd frontend 
+
 npm install
 
 
@@ -126,6 +104,7 @@ npm install
 Create `.env` file in backend:
 
 DATABASE_URL=your_postgres_url
+
 JWT_SECRET=your_secret_key
 
 
@@ -141,7 +120,9 @@ npx prisma migrate dev
 ### 5. Start backend
 
 npm run dev
+
 Server will run on:
+
 http://localhost:3000
 
 
@@ -150,8 +131,11 @@ http://localhost:3000
 ### 6. Start frontend
 
 cd frontend
+
 npm run dev
+
 Frontend runs on:
+
 http://localhost:5173
 
 
