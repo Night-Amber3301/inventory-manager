@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://inventory-manager-urqr.onrender.com",
 });
 
 axiosInstance.interceptors.request.use(
@@ -33,7 +33,7 @@ axiosInstance.interceptors.response.use(
       try {
         const refreshToken = localStorage.getItem("refreshToken");
 
-        const res = await axios.post("http://localhost:3000/auth/refresh", {
+        const res = await axios.post("https://inventory-manager-urqr.onrender.com/auth/refresh", {
           refreshToken,
         });
 
