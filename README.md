@@ -160,6 +160,11 @@ http://localhost:5173
 
 ---
 
+## Live Demo
+
+Frontend: https://inventory-manager.vercel.app  
+Backend API: https://inventory-manager-api.onrender.com
+
 ## Author
 
 Built as part of a take-home assignment.
