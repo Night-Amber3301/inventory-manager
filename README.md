@@ -162,7 +162,7 @@ http://localhost:5173
 
 ## Live Demo
 
-Frontend: https://inventory-manager.vercel.app  
+Frontend: https://inventory-manager-nine-inky.vercel.app
 Backend API: https://inventory-manager-api.onrender.com
 
 ## Author
